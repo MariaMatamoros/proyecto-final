@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Esete es el header-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script>
+</head>
+
+<!--Este es el body-->
+
+<body>
+   <header>
+      <div class="container-cero">
+         <img id="logo" src="images/logo.jpg" alt="" width="300px">
+         <h1>Introducción al desarrollo web</h1>
+      </div>
+      <nav class="nav">
+      <div class="container-one" id="links">
+         <a id="nav-submit" href="file:///Users/mariamatamoros/Desktop/Texas%20Tech%20U/Proyecto%20Final/proyecto-final/index.html">Inicio</a> |
+         <a id="nav-submit" href="file:///Users/mariamatamoros/Desktop/Texas%20Tech%20U/Proyecto%20Final/proyecto-final/biografia.html">Biografía</a> |
+         <a id="nav-submit" href="file:///Users/mariamatamoros/Desktop/Texas%20Tech%20U/Proyecto%20Final/proyecto-final/galeria.html">Galería</a>
+      </nav>
+   </header> 
+   <main>
+      <img src="images/banner.jpg" alt="" width="1280px">
+      
+      <div class="container-five">  
+      <h2>Galería</h2>   
+      <button onclick="toggleCategory('cate1')" id="btn-submit">Hobbies</button>
+      <button onclick="toggleCategory('cate2')" id="btn-submit">Mascotas</button>
+      <button onclick="toggleCategory('cate3')" id="btn-submit">Viajes</button>  
+      </div>
+
+   <div id="gallery">  
+    <!--
+      <div id="toggleHobbies" onclick="toggleSection()"> -->
+         <div class="category" id="category1">
+            <div class="img-card"><img src="images/hobbies/hobbies1.jpg" alt="hobbies01" width="200px"></div> 
+            <div class="img-card"><img src="images/hobbies/hobbies2.jpg" alt="hobbies02" width="200px"></div>
+            <div class="img-card"><img src="images/hobbies/hobbies3.jpg" alt="hobbies03" width="200px"></div>
+            <div class="img-card"><img src="images/hobbies/hobbies4.jpg" alt="hobbies04" width="200px"></div>
+         </div> 
+
+      <!--
+      <div id="toggleMascotas" onclick="toggleSection()">  -->
+         <div class="category" id="category2">  
+            <div class="img-card"><img src="images/mascotas/mascotas1.jpg" alt="mascotas01" width="200px"></div>
+            <div class="img-card"><img src="images/mascotas/mascotas2.jpg" alt="mascotas02" width="200px"></div>
+            <div class="img-card"><img src="images/mascotas/mascotas3.jpg" alt="mascotas03" width="200px"></div>
+            <div class="img-card"><img src="images/mascotas/mascotas4.jpg" alt="mascotas04" width="200px"></div>
+         </div> 
+      
+      <!--
+      <div id="toggleViajes" onclick="toggleSection()">  -->
+         <div class="category" id="category3">   
+            <div class="img-card"><img src="images/viajes/viajes1.jpg" alt="viajes01" width="200px"></div>
+            <div class="img-card"><img src="images/viajes/viajes2.jpg" alt="viajes02" width="200px"></div>
+            <div class="img-card"><img src="images/viajes/viajes3.jpg" alt="viajes03" width="200px"></div>
+            <div class="img-card"><img src="images/viajes/viajes4.jpg" alt="viajes04" width="200px"></div>
+         </div> 
+      </div>
+   </div>
+      
+
+   </main>
+
+   <footer>
+      <small>&#169; 2021 Hecho por Maria Matamoros</small> |
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+      <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+   </footer>
+
+   <!--Por aca termina-->
+<script src="scripts/script.js"></script>
+</body>
+</html>
+

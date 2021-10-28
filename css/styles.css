@@ -1,0 +1,143 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1280px;
+    font-size: em;
+}
+header {
+    background-color: #fff;
+    font-family: sans-serif;
+    padding: 1%;
+    width: 100%;
+}
+
+#logo{
+    border-radius: 2%;
+}
+
+nav{
+    background-color: #FFB319;
+    padding: 1%;
+    max-width: 1280px;
+}
+
+#nav-submit:hover {
+    background:#fff;
+    color: rgb(37, 37, 37);
+    margin: 10px;
+    padding:11px;
+}
+
+body {
+    margin: 1%;
+    text-align: :left;
+}
+
+main {
+    padding: 0%;
+    width: 100%;
+}
+
+.box-1, .nav, .container-cero, .container-two, .container-three, .container-four, .container-five, .container-six {
+    padding-left: 2%;
+}
+
+.box-1{
+    margin bottom:40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container-two, .container-three {
+    display: inline-block;
+    background-color: #fffbef;
+    width: 45%;
+    padding: 20px;
+    margin bottom:20px;
+    padding-left: 2%;
+}
+
+.container-four{
+    display: block;
+    max-width: 100%;
+}
+
+.container-five{
+    padding-bottom: 2%;
+}
+
+#perfil {
+    float: left;
+    padding-right: 20px;
+}
+
+#parrafo-bio {
+    max-width: 100%;
+}
+
+#toggleBloque {
+    font-weight: bold;
+    background:#FFB319;
+    border-color:#FFB319;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px 25px 10px 25px;
+}
+
+#masTexto { 
+    margin-bottom: 30px;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1%;
+    margin-right: 40px;
+}
+
+i {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+ #gallery{
+    max-width: 1280px;
+    width: 100%;
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.img-card{
+    display: inline-block;
+    padding: 5px;
+    margin bottom:20px;
+}
+
+#btn-submit{
+    font-weight: bold;
+    background:#FFB319;
+    border-color:#FFB319;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px 25px 10px 25px;
+}
+
+#btn-submit:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+#category1, #category2, #category3 {
+    display: none;
+} 
+
+footer{
+    padding: 1%;
+    background-color: #FFB319;
+    width: 100%;
+    margin-top: 4%;
+}
