@@ -1,5 +1,3 @@
-//comment 
-
 function toggleSection() {
     const contenedor = document.getElementById("masTexto");
     if (!contenedor.style.display || contenedor.style.display === "none") {
