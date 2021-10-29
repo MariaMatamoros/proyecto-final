@@ -1,5 +1,5 @@
 function toggleSection() {
-    const contenedor = document.getElementById("masTexto");
+    const contenedor = document.getElementById("moreText");
     if (!contenedor.style.display || contenedor.style.display === "none") {
         contenedor.style.display = "block";
         document.getElementById("toggleBloque").textContent = "Leer Menos";
