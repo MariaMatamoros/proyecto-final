@@ -21,7 +21,7 @@ header {
 }
 
 .nav-submit:hover {
-    background:rgb(224, 146, 55);
+    background:rgb(253, 223, 189);
     color: #000;
     margin: 10px;
     padding:11px;
@@ -104,10 +104,6 @@ i {
     padding-bottom: 10px;
 }
 
-#gallery{
-    padding-left: 2%;
-}
-
 .img-card{
     display: inline-block;
     padding: 5px;
@@ -132,6 +128,10 @@ i {
 #category1, #category2, #category3 {
     display: none;
 } 
+
+.img-card:hover {
+    transform: scale(1.1);
+}
 
 footer{
     padding: 1%;
