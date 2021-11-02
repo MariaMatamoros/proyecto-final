@@ -6,21 +6,22 @@
 header {
     background-color: #fff;
     font-family: sans-serif;
-    padding: 1%;
     width: 100%;
 }
 
 #logo{
-    border-radius: 2%;
+    width: 300px;
 }
 
-nav{
+.nav{
     background-color: #FFB319;
     padding: 1%;
+    width: 100%;
+    
 }
 
-#nav-submit:hover {
-    background:#fff;
+.nav-submit:hover {
+    background:rgb(224, 146, 55);
     color: #000;
     margin: 10px;
     padding:11px;
@@ -36,9 +37,10 @@ main {
     width: 100%;
 }
 
-.box-1, .nav, .container-zero, .container-two, .container-three, .container-four, .container-five, .container-six {
-    padding-left: 2%;
+.banner{
+    width: 1280px;
 }
+
 
 .box-1{
     margin bottom:40px;
@@ -54,9 +56,8 @@ a{
     display: inline-block;
     background-color: #fff0dd;
     width: 45%;
-    padding: 20px;
+    padding: 10px;
     margin bottom:20px;
-    padding-left: 2%;
 }
 
 .container-four{
@@ -71,6 +72,7 @@ a{
 #perfil {
     float: left;
     padding-right: 20px;
+    width: 200px;
 }
 
 #parrafo-bio {
@@ -102,7 +104,7 @@ i {
     padding-bottom: 10px;
 }
 
- #gallery{
+#gallery{
     padding-left: 2%;
 }
 
@@ -112,7 +114,7 @@ i {
     margin bottom:20px;
 }
 
-#btn-submit{
+.btn-submit{
     font-weight: bold;
     background:#FFB319;
     border-color:#FFB319;
@@ -121,7 +123,7 @@ i {
     padding: 10px 25px 10px 25px;
 }
 
-#btn-submit:hover {
+.btn-submit:hover {
     background: #000;
     border-color: #000;
     color: #fff;

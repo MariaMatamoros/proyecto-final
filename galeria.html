@@ -11,28 +11,27 @@
 </head>
 
 <!--Este es el body-->
-
 <body>
    <header>
-      <div class="container-zero">
-         <img id="logo" src="images/logo.jpg" alt="" width="300px">
+      <div class="container-one">
+         <img id="logo" src="images/logo.jpg" alt="Logo de W@tt">
          <h1>Introducción al Desarrollo Web</h1>
       </div>
       <nav class="nav">
-      <div class="container-one" id="links">
-         <a id="nav-submit" href="file:///Users/mariamatamoros/Desktop/Texas%20Tech%20U/Proyecto%20Final/proyecto-final/index.html">Inicio</a> |
-         <a id="nav-submit" href="file:///Users/mariamatamoros/Desktop/Texas%20Tech%20U/Proyecto%20Final/proyecto-final/biografia.html">Biografía</a> |
-         <a id="nav-submit" href="file:///Users/mariamatamoros/Desktop/Texas%20Tech%20U/Proyecto%20Final/proyecto-final/galeria.html">Galería</a>
+         <a class="nav-submit" href="index.html">Inicio</a> |
+         <a class="nav-submit" href="biografia.html">Biografía</a> |
+         <a class="nav-submit" href="galeria.html">Galería</a>
+      </div>
       </nav>
    </header> 
    <main>
-      <img src="images/banner.jpg" alt="" width="1280px">
+      <img class="banner" src="images/banner.jpg" alt="Imagen con codigo">
       
       <div class="container-five">  
          <h2>Galería</h2>   
-            <button onclick="toggleCategory('cate1')" id="btn-submit">Hobbies</button>
-            <button onclick="toggleCategory('cate2')" id="btn-submit">Mascotas</button>
-         <button onclick="toggleCategory('cate3')" id="btn-submit">Viajes</button>  
+            <button onclick="toggleCategory('cate1')" class="btn-submit">Hobbies</button>
+            <button onclick="toggleCategory('cate2')" class="btn-submit">Mascotas</button>
+            <button onclick="toggleCategory('cate3')" class="btn-submit">Viajes</button>  
       </div>
 
    <div id="gallery">  
